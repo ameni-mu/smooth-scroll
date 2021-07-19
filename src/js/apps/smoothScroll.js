@@ -148,7 +148,6 @@ export default class smoothScroll {
         const y = Math.floor(texts[key].el.getBoundingClientRect().top);
         if (y < winH) {
           texts[key].el.classList.add('isVisible');
-          console.log(texts[key].el);
         }
       }
     }
